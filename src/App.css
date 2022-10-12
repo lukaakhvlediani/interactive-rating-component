@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+body{
+ background-color:  hsl(216, 12%, 8%);
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+margin-top: 175px;
+margin-left: 450px;
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+ position: absolute;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.oval{
+  position: absolute;
+left: 7.77%;
+right: 80.58%;
+top: 7.69%;
+bottom: 80.77%;
+background: #262E38;
+border-radius: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.star{
+
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 20px auto;
+  margin-top: 15px;
+
+}
+.heading{
+  position: absolute;
+height: 37px;
+margin-left: 7.34%;
+margin-right: 7.34%;
+margin-top: calc(50% - 37px/2 - 81.5px);
+
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+
+color: #FFFFFF
+}
+.para{
+  position: absolute;
+height: 66px;
+margin-left: 7.34%;
+margin-right: 7.34%;
+margin-top: calc(50% - 66px/2 - 20px);
+
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 22px;
+color: #969FAD
+
+}
+.btn{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 1.7rem;
+  margin-top: 15rem;
+  margin-left: -2rem;
+}
+.oval2{
+width: 42px;
+height: 42px;
+border-radius: 30px;
+
+background: #262E38;
+
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.175px;
+color: #7C8798;
+border-color:262E38
+
 }
 
-.App-link {
-  color: #61dafb;
+.submit{
+  width: 325px;
+  height: 45px;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 1.86667px;
+font-family: 'Overpass';
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FC7614;
+border-radius: 22.5px;
+margin-left: 30px;
+margin-top: 25px;
+border-color:#181E27
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit:hover{
+  color: #fc7614;
+  background: #ffffff;
+}
+
+.oval2:hover{
+  background: #fc7614;
+  color: #ffffff;
+}
+.oval2:focus{
+  background: #7c8798;
+  color: #ffffff;
+}
+
+.thanks{
+  position: absolute;
+width: 140.12px;
+height: 70.58px;
+left: 116px;
+margin-top: 45px;
+}
+
+.para2{
+  position: absolute;
+  height: 22px;
+  left: 7.14%;
+  right: 7.14%;
+  top: calc(50% - 22px/2);
+  
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  
+  text-align: center;
+  
+  /* Orange */
+  
+  color: #FC7614;
+  
+}
+.thankyou{
+  position: absolute;
+height: 37px;
+left: 12.8%;
+right: 12.8%;
+top: calc(50% - 37px/2 + 49px);
+
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+/* Pure White */
+
+color: #FFFFFF
+}
+.appreciate{
+  position: absolute;
+height: 66px;
+left: 12.8%;
+right: 12.8%;
+top: calc(50% - 66px/2 + 110.5px);
+
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #969FAD;
 }
